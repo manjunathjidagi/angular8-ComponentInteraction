@@ -1,4 +1,7 @@
 <div>
   This is {{title}}
-  <app-test [parentData]="name"></app-test>
+  <br /><br />
+  {{message}}
+  <br /><br />
+  <app-test (childEvent)="message=$event" [parentData]="name"></app-test>
 </div>

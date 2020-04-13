@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'componentInteractionProject';
   public name = "Manjunath"
+  public message = ""
 }
